@@ -1,0 +1,33 @@
+/**
+ * The following styles get applied inside the editor only.
+ *
+ * Replace them with your own styles or remove the file completely.
+ */
+
+.wp-block-create-block-card-block-task {
+	border: 1px dotted #f00;
+}
+
+.card-block {
+	box-shadow: 0 7px 20px rgba(0, 0, 0, 0.05);
+	border-radius: 0.5rem;
+	overflow: auto;
+	&__title,
+	&__subtitle,
+	&__text {
+		margin: 0 !important;
+	}
+	&__title {
+		padding: 2rem 2rem 0 2rem;
+	}
+	&__subtitle {
+		padding: 0 2rem;
+		color: #eeeeee;
+	}
+	&__content {
+		padding: 2rem;
+	}
+	&__text {
+		color: #bdbdbd;
+	}
+}

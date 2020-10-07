@@ -1,0 +1,26 @@
+/**
+ * The following styles get applied inside the editor only.
+ *
+ * Replace them with your own styles or remove the file completely.
+ */
+.wp-block-create-block-card-block-task {
+  border: 1px dotted #f00; }
+
+.card-block {
+  box-shadow: 0 7px 20px rgba(0, 0, 0, 0.05);
+  border-radius: 0.5rem;
+  overflow: auto; }
+  .card-block__title, .card-block__subtitle, .card-block__text {
+    margin: 0 !important; }
+  .card-block__title {
+    padding: 2rem 2rem 0 2rem; }
+  .card-block__subtitle {
+    padding: 0 2rem;
+    color: #eeeeee; }
+  .card-block__content {
+    padding: 2rem; }
+  .card-block__text {
+    color: #bdbdbd; }
+
+
+/*# sourceMappingURL=index.css.map*/
