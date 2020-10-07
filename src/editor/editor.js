@@ -12,14 +12,10 @@ const {
 	RangeControl
 } = wp.components
 
-
-console.log(wp);
-
 // Styles
 import './editor.scss';
 
 const Editor = ({
-	className,
 	attributes: { card },
 	setAttributes
 }) => {
